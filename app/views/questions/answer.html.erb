@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 mt-5">
+        <div class="card py-3 rounded">
+          <div class="card-body">
+            <h2 class="text-center mb-4">This is the answer page 🚀</h2>
+            <!-- Add your content here -->
+            <div class="bg-light rounded p-4 m-2 border">
+              <p><%= @user_input %></p>
+              <p><strong>- You</strong></p>
+            </div>
+            <div class="bg-light rounded p-4 m-2 border">
+              <p><%= @output %></p>
+              <p><strong>- The Coach</strong></p>
+            </div>
+            <div class="rounded p-2 m-2 border text-center">
+              <%= link_to("Go back to the Ask page", ask_path) %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
